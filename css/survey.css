@@ -1,0 +1,142 @@
+h1 {
+font-weight: 400;
+line-height: 1.2;
+}
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+}
+body::before {
+content: '';
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+background: var(--color-darkblue);
+background-image: linear-gradient(
+115deg,
+rgba(55, 58, 150, 0.8),
+rgba(136, 136, 206, 0.7)
+),
+url(/Users/juanantoniobritogonzalez/desktop/survey_form/images/travel-pic.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.submit-button {
+display: block;
+width: 100%;
+padding: 0.75rem;
+background: var(--color-black);
+color: black;
+border-radius: 2px;
+cursor: pointer;
+}
+#submit {
+background-color: green;
+}
+
+  #textarea {
+    background-color: #dbe5f1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    text-color: black;
+    text-align: left;
+}
+  #body {
+    background-color: #8db3e2;
+}
+#name {
+  width: 100%;
+  padding: 10px;
+}
+#name-label {
+  line-height: 2.8;
+}
+#email {
+  width: 100%;
+  padding: 10px;
+
+}
+#email-label {
+  line-height: 2.8;
+}
+#Age {
+  width: 100%;
+  padding: 10px;
+}
+#Age-label {
+ line-height: 2.8;
+}
+.text {
+  margin-right: 600px;
+  margin-left: 0px;
+}
+#dropdown {
+  width: 100%;
+  padding: 10px;
+}
+#text-color {
+  color: #008080;
+}
+.input-textarea {
+min-height: 0px;
+width: 100%;
+padding: 10px;
+resize: horizontal;
+}
+.shadow1 {
+margin: 40px;
+background-color: rgb(68,68,68); /* Needed for IEs */
+
+-moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+
+filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+zoom: 1;
+}
+.shadow1 .content {
+position: relative; /* This protects the inner element from being blurred */
+padding: 20px;
+background-color: #00FFFF;
+}
+.container {
+width: 100%;
+margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+.container {
+max-width: 540px;
+}
+}
+
+@media (min-width: 768px) {
+.container {
+max-width: 720px;
+}
+}
+#description {
+text-align: center;
+}
+#title {
+text-align: center;
+}
+button {
+border: none;
+}

@@ -1,1 +1,88 @@
-<h1 id="title">Tell us about your Travel Experiences</h1>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/survey.css">
+    <style>
+
+    </style>
+  </head>
+    <div class="container">
+  <div class="shadow1">
+  	<div class="content">
+
+  <body id="body">
+    <h1 id="title">Tell us about your Travel Experiences</h1>
+    <p id="description">This is a Survey that you can share with us, your amazing Travel Experiences</p>
+     <form class="survey-form">
+        <label id="name-label"
+        class="text">Name:</label>
+        <input id="name"
+        type="text"
+        name="name"
+        placeholder="Enter your name"
+        required><br>
+        <label id="email-label" class="text">Email</label>
+        <input id="email" type="email" name="email" required placeholder="Enter your email">
+        <label id="Age-label" class="text">Age</label>
+        <input id="Age" type="number" name="Age" min="10" max="90" required placeholder="Enter your Age"><br>
+        <br>
+        <div>
+        <label id="Genders-label" class="text"><strong>Genders</strong></label>
+        <input type="radio" name="gender"  value="Male">Male<br>
+        <input type="radio" name="gender"  value="Female">Female<br>
+        <input type="radio" name="gender"  value="Others-gender">Others<br>
+
+         <br>
+          <p>Wich part of the World have you visited?</p>
+        <select name="Continent" id="dropdown" required>
+            <option disabled selected value>Select Continent</option>
+            <option value="Asia">Asia</option>
+            <option value="Africa">Africa</option>
+            <option value="Caribean">America</option>
+            <option value="others">others</option>
+          </select><br>
+          <br>
+        <div><p>Would you like in the future to visit one of this places.</p>
+          <select id="dropdown" name="countries" class="form-control" required>
+         <option disabled selected value>Select current country</option>
+         <option value="USA">USA</option>
+         <option value="Korea">Korea</option>
+         <option value="KONGO">Kongo</option>
+         <option value="Thailand">Thailand</option>
+         <option value="Brazil">Brazil</option>
+         <option value="Others">Others</option>
+       </select>
+        </div>
+        <br>
+         <div>
+           <p>How do you like to Travel? <span class="clue"><u>(Check all that apply)</u></span></p>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1">By Bike.</label><br>
+
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2">By Car.</label><br>
+
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3">By Boat.</label><br>
+
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3">By Plane.</label><br>
+
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3">By Bus.</label>
+          </div><br>
+          <br>
+
+          <p id="text-color"><strong>Comments or sugestions about your Trips?</strong></p>
+          <textarea name="name" class="input-textarea" id="textarea" placeholder="Aditional comments here!."></textarea><br>
+
+          <br>
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</div>
+</div>
+</div>
+</html>
